@@ -2,10 +2,35 @@
 //
 
 #include <iostream>
+using namespace std;
+#include "Calculator.h"
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	
+	double x = 0.0;
+	double y = 0.0;
+	double result = 0.0;
+	double result1 = 0;
+	char oper = '+';
+
+	cout << "Calculator Console Application" << endl << endl;
+	cout << "Please enter the operation to perform. Format: a+b | a-b | a*b | a/b"
+		<< endl;
+	Calculator c;
+	while(true)
+	{
+		cin >> x >> y;
+		//result = c.Calculate(x, oper, y);
+
+		result1 = c.Csdfds(x, y);
+
+		//cout << "结果是：" << result << endl;
+		cout << "手动阀沙发:" << result1 << endl;
+	}
+	return 0;
+
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
