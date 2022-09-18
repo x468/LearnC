@@ -22,12 +22,12 @@ int main()
 	while(true)
 	{
 		cin >> x >> y;
-		//result = c.Calculate(x, oper, y);
+		result = c.Calculate(x, oper, y);
 
-		result1 = c.Csdfds(x, y);
+	
 
-		//cout << "结果是：" << result << endl;
-		cout << "手动阀沙发:" << result1 << endl;
+		cout << "结果是：" << result << endl;
+		//cout << "手动阀沙发:" << result1 << endl;
 	}
 	return 0;
 
